@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://buovagd257o23"]
+
+[ext_resource type="Script" path="res://Heart.gd" id="1_5sls0"]
+[ext_resource type="Texture2D" uid="uid://drvc7syxarxe" path="res://kenney_pixel-platformer/Tiles/tile_0044.png" id="2_vlc5c"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i6rmv"]
+radius = 4.0
+
+[node name="Heart" type="Area2D" groups=["Hearts"]]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_5sls0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_vlc5c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_i6rmv")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jxfsc4s6mhow"
+path="res://.godot/imported/2-07. YOU GOT A GRAND MOON!.mp3-9e812934369b7c84e42c08bfc5d8ff5b.mp3str"
+
+[deps]
+
+source_file="res://2-07. YOU GOT A GRAND MOON!.mp3"
+dest_files=["res://.godot/imported/2-07. YOU GOT A GRAND MOON!.mp3-9e812934369b7c84e42c08bfc5d8ff5b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

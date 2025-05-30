@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dji6t6w1t5lhy"
+path="res://.godot/imported/1-01 Overture.mp3-cb06aa39b9e2ca0afc9e468304ca8c46.mp3str"
+
+[deps]
+
+source_file="res://1-01 Overture.mp3"
+dest_files=["res://.godot/imported/1-01 Overture.mp3-cb06aa39b9e2ca0afc9e468304ca8c46.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

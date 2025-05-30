@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2pguvb8seiu8"
+path="res://.godot/imported/4-39. Too Bad....mp3-6f50aa451d6a7c2e0c2e589a34e94741.mp3str"
+
+[deps]
+
+source_file="res://4-39. Too Bad....mp3"
+dest_files=["res://.godot/imported/4-39. Too Bad....mp3-6f50aa451d6a7c2e0c2e589a34e94741.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

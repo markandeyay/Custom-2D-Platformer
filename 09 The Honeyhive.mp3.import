@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ca022010jggyh"
+path="res://.godot/imported/09 The Honeyhive.mp3-1195d65fe002a444e57d9ebcd17dfd89.mp3str"
+
+[deps]
+
+source_file="res://09 The Honeyhive.mp3"
+dest_files=["res://.godot/imported/09 The Honeyhive.mp3-1195d65fe002a444e57d9ebcd17dfd89.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

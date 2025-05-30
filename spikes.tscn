@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c53r0f2taan3a"]
+
+[ext_resource type="Texture2D" uid="uid://dpkjjvup8hrd2" path="res://kenney_pixel-platformer/Tiles/tile_0068.png" id="1_5swov"]
+[ext_resource type="PackedScene" uid="uid://bbrs0kmkl2xdc" path="res://hazard_area.tscn" id="2_gfurj"]
+
+[node name="Spikes" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9)
+texture = ExtResource("1_5swov")
+
+[node name="HazardArea" parent="." instance=ExtResource("2_gfurj")]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="HazardArea"]
+polygon = PackedVector2Array(1, 0, 3, -7, 5, -7, 7, 0)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="HazardArea"]
+position = Vector2(-8, 0)
+polygon = PackedVector2Array(1, 0, 3, -7, 5, -7, 7, 0)
